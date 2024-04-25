@@ -17,16 +17,15 @@ You can install the required dependencies using the following command:
 pip install -r requirements.txt
 
 Clone the repository to your local machine:
-bash
-Copy code
+
 git clone https://github.com/your_username/diabetes_prediction.git
 Navigate to the project directory:
-bash
+
 
 cd diabetes_prediction
 Ensure your dataset (diabetes.csv) is in the same directory as the Python files.
 Run the main script:
-bash
+
 
 python diabetes_prediction.py
 The script will load the dataset, preprocess the data, train the TensorFlow model, evaluate its performance, and visualize the results.
