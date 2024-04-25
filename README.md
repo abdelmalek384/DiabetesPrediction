@@ -2,31 +2,32 @@
 
 This project implements a diabetes prediction system using machine learning techniques. It consists of Python code that preprocesses the data, trains a TensorFlow model, evaluates its performance, and visualizes the results.
 
-Requirements
-Python 3.x
-pandas
-numpy
-TensorFlow
-scikit-learn
-matplotlib
+## Requirements
+
+- Python 3.x
+- pandas
+- numpy
+- TensorFlow
+- scikit-learn
+- matplotlib
+
 You can install the required dependencies using the following command:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Usage
+
 Clone the repository to your local machine:
 bash
 Copy code
 git clone https://github.com/your_username/diabetes_prediction.git
 Navigate to the project directory:
 bash
-Copy code
+
 cd diabetes_prediction
 Ensure your dataset (diabetes.csv) is in the same directory as the Python files.
 Run the main script:
 bash
-Copy code
+
 python diabetes_prediction.py
 The script will load the dataset, preprocess the data, train the TensorFlow model, evaluate its performance, and visualize the results.
 
